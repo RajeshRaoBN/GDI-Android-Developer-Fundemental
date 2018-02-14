@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Settings"
+          android:orderInCategory="10"
+          app:showAsAction="never"
+          android:id="@+id/m1"/>
+    <item android:title="Mic"
+          android:orderInCategory="11"
+          android:id="@+id/m2"
+          app:showAsAction="always" android:icon="@android:drawable/presence_audio_busy"/>
+    <item android:title="Status" android:orderInCategory="8" android:id="@+id/m3"/>
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.swipeandtabs.MainActivity">
+
+    <view android:layout_width="match_parent" android:layout_height="wrap_content"
+          class="android.support.design.widget.TabLayout" layout_alignParentTop="true" layout_centerHorizontal="true"
+          id="@+id/view" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+          android:id="@+id/myTab" android:background="@color/colorAccent"/>
+    <view android:layout_width="match_parent" android:layout_height="match_parent"
+          class="android.support.v4.view.ViewPager" layout_below="@+id/myTab" layout_centerHorizontal="true"
+          layout_marginTop="52dp" id="@+id/view2" android:layout_below="@+id/myTab" android:id="@+id/myPager"/>
+</RelativeLayout>
